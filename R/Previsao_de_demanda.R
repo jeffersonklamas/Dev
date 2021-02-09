@@ -2,8 +2,6 @@
 # O excel há um limite de linhas e colunas.
 # Dependendo do conjunto de dados e sua complexidade o R é eficiente.
 
-Apresenta_variavel = "Olá, Mundo!!!!"
-print(Apresenta_variavel)
 
 library(ggplot2)
 
