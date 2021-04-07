@@ -1,0 +1,6 @@
+[submodule "Learning_repository"]
+	path = Learning_repository
+	url = https://github.com/jeffersonklamas/Learning_repository.git
+[submodule "Dev"]
+	path = Dev
+	url = https://github.com/jeffersonklamas/Dev.git
