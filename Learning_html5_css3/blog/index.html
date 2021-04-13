@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do JKM</title> 
+    <!--
+        Este é um exercício de implemento um blog pessoal, neste, peguei um artigo do site 
+        https://www.ycombinator.com/library/4Q-a-minimum-viable-product-is-not-a-product-it-s-a-process#footnoteid2
+        
+        Traduzi através da ferramenta Glate, e desenvolvi o mesmo.
+    
+        Fiz um link com o site secundário, no endereço: http://paulgraham.com/ds.html, sobre o tema Do Things that don't Scale.
+        
+        e vinculei as notas de rodapés-->
+    <!--
+        Ok, Próximos passos:
+        Pensar no CSS, Tamanho de fonte, centralidade do conteúdo na página, background preto, letras brancas, Botão de retorno das âncoras 
+        Pensar no Interatividade, Neste momento pensei em uma página puxando propagandas que não atrapalhem a concentração do leitor.
+     -->
+</head>
+<body>
+    <h1>Um produto mínimo viável <strong>MVP</strong> não é um produto, é um processo
+    <sup id="noteid0">
+        <a href="#noteid0">0</a>
+    </sup> 
+</h1>
+    <h4>by Jim Brikman</h4>
+    
+    <p>“Você sabe aquele velho ditado sobre um avião voando da Califórnia para o Havaí estar fora do curso 99% do tempo - mas corrigindo constantemente? 
+
+        O mesmo é verdade para startups de sucesso - exceto que podem começar rumo ao Alasca. ” 
+        —- Evan Williams</p>
+
+    <h2>É a mesma história de novo e de novo. Primeiro, uma equipe tem uma ideia.</h2>
+
+    <p>
+        Em seguida, eles constroem um produto mínimo viável (MVP) como uma prova de conceito, gastando muito tempo discutindo sobre quais recursos incluir ou excluir do MVP. 
+    </p>
+    <p>
+        Finalmente, se o MVP funcionar bem, eles planejam construir o produto completo, maduro e estável.
+    </p>
+    <p>
+        Então, o que há de errado com essa imagem? Por que tudo dá errado para tantas startups?
+    </p>
+    <p>
+        O problema é que essas equipes não entendem o que é um MVP. Um MVP não é apenas um produto com metade dos recursos eliminados ou uma maneira de lançar o produto um pouco mais cedo. Na verdade, o MVP não precisa ser um produto. E não é algo que você constrói apenas uma vez e depois considera o trabalho concluído.
+    </p>
+
+    <img src="image/MVPImage1.png" alt="Grafico representando o produto minimo viável">
+
+    <p>
+        Um MVP é um processo que você repete continuamente: Identifique sua suposição mais arriscada, encontre o menor experimento possível para testar essa suposição e use os resultados do experimento para corrigir o curso.
+    </p>
+    <p>
+        Ao construir um produto, você faz muitas suposições. Você presume que sabe o que os usuários estão procurando, como o design deve funcionar, qual estratégia de marketing usar, qual arquitetura funcionará com mais eficiência, qual estratégia de monetização a tornará sustentável e quais leis e regulamentos você deve cumprir. Não importa o quão bom você seja, algumas de suas suposições estarão erradas. O problema é que você não sabe quais.
+    <sup id="noteid1">
+        <a href="#noteid1">1</a>
+    </sup>
+    </p>
+    <p>
+        Em um post-mortem de mais de 100 startups, <a href="https://www.cbinsights.com/research/startup-failure-reasons-top/"> CB Insights descobriu</a> que a causa número um de falha de inicialização (42% do tempo) era "nenhuma necessidade de mercado". Quase metade dessas startups passou meses ou mesmo anos construindo um produto antes eles descobriram que estavam errados em sua suposição mais central: que alguém estava interessado naquele produto em primeiro lugar.
+    </p>
+    <p>
+        A única maneira de descobrir isso - a única maneira de testar suas suposições - é colocar seu produto na frente de usuários reais o mais rápido possível. E, quando o fizer, muitas vezes descobrirá que terá de voltar à prancheta. Na verdade, você terá que voltar à prancheta não apenas uma vez, mas repetidamente.
+    </p>
+
+    <img src="image/MVPImage2.png" alt="Gráfico representando o desenvolvimento continuo do MVP">
+    
+    <p>
+        Isso não é exclusivo do desenvolvimento de produtos. Quando você está escrevendo um livro ou ensaio, tem que produzir muitos rascunhos e gastar muito tempo editando. E quando você está escrevendo código,frequentemente tem que refatorar ou até mesmo reescrever o código.
+        <sup id="noteid2">
+            <a href="#noteid2">2</a>
+        </sup> 
+    Todo esforço humano criativo requer uma quantidade enorme de tentativa e erro.
+    </p>
+
+    <img src="image/MVPImage3.png" alt="Gráfico representando que em grande parte é tentativa e erro no desenvolvimento de um MVP">
+
+    <p>
+        Em um mundo de tentativa e erro, aquele que consegue encontrar os erros mais rápido vence. Algumas pessoas chamam essa filosofia de "falha rápido". No TripAdvisor, o chamávamos de <a href="https://www.slideshare.net/brikis98/startup-dna-speed-wins">“Velocidade vitoriosa”</a>. Eric Ries chamou isso de <a href="https://en.wikipedia.org/wiki/Lean_startup">Lean</a>. Kent Beck e outros programadores o chamaram de <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile</a>. Qualquer que seja o nome, o objetivo é descobrir quais de suas suposições estão erradas, obtendo feedback sobre seu produto de usuários reais o mais rápido possível.
+    </p>
+
+    <p>
+        Esteja você criando um produto, escrevendo um código ou elaborando um plano de marketing, você deve sempre se perguntar duas coisas:
+    </p>
+
+    <ul>
+        <li>
+            <em>
+                Qual é a minha suposição mais arriscada?
+            </em>
+        </li>
+        <li>
+            <em>
+                Qual é o menor experimento que posso fazer para testar essa suposição?
+            </em>
+        </li>
+    </ul>
+
+    <h2>MVP como um processo, em ação</h3>
+    
+    <p>
+        Vamos ver um exemplo.
+    </p>
+
+    <p>
+        Você decide criar um produto que permite aos proprietários de restaurantes criar um aplicativo móvel para seus restaurantes com apenas alguns cliques. Terá uma interface simples de arrastar e soltar, um monte de modelos pré-construídos, um calendário de eventos, boletim nformativo, check-ins, galerias de fotos, bate-papo em tempo real, integração com sites de avaliação, redes sociais e Google Maps. E o mais importante, ele oferecerá uma maneira de fazer reservas, fazer pedidos de entrega e usar cupons, dos quais você receberá uma pequena parte como forma de monetizar seu produto. Isso vai ser incrível!
+    </p>
+
+    <p>
+        Você encontra alguns amigos para se juntar a você como co-fundadores e, se você for uma típica equipe de startups, vai arrecadar algum dinheiro, se trancar em uma sala por 12 meses e tentar construir todos esses recursos.  Se você for um pouco mais experiente, irá cortar alguns recursos que não são essenciais para o primeiro lançamento, então você será capaz de lançar seu “MVP” em 8 meses em vez de 12.
+    </p>
+
+    <p>
+        E em ambos os casos, você provavelmente irá falhar.
+    </p>
+
+    <p>
+        Por quê? Bem, considere quantas suposições você está fazendo que podem se revelar desastrosamente erradas: 
+    </p>
+    <ul>
+        <li>
+            Você passa meses descobrindo como lançar aplicativos móveis personalizados para seus clientes, apenas para descobrir que o que o proprietário de um restaurante realmente quer é um site otimizado para celular que seja fácil de encontrar no Google.
+        </li>
+        <li>
+            Ou, depois de usar todas as tecnologias mais recentes para construir um bate-papo em tempo real, você descobre que os proprietários de restaurantes mal conseguem lidar com e-mail e não querem ficar sentados em frente ao computador o dia todo.
+        </li>
+        <li>
+            Ou, pior de tudo, você pode descobrir que os proprietários de restaurantes não querem o incômodo de lidar com tecnologia e manter aplicativos móveis e não têm interesse em usar seu produto em primeiro lugar.
+        </li>
+    </ul>
+
+    <p>
+        Esperar meses para descobrir essas falhas críticas é muito longo. Na melhor das hipóteses, perder tanto tempo é um desperdício enorme e, na pior, colocará sua empresa na falência. Nas palavras de Peter Drucker: "Certamente não há nada tão inútil quanto fazer com grande eficiência o que não deveria ser feito."
+    </p>
+
+    <p>
+        Vamos tentar a abordagem MVP como um processo e ver se podemos fazer melhor. Vamos construir o produto de forma incremental, em cada estágio perguntando:
+    </p>
+    <ul>
+        <li>
+            Qual é a minha suposição mais arriscada?
+        </li>
+        <li>
+            Qual é o menor experimento que posso fazer para testar essa suposição?
+        </li>
+    </ul>
+
+    <p>
+        No início, a suposição mais arriscada é provavelmente que os proprietários de restaurantes desejam criar aplicativos móveis.
+    </p>
+
+    <p>
+        Portanto, o primeiro MVP poderia ser uma maquete de um aplicativo móvel - talvez até mesmo um que você fez na parte de trás de um guardanapo de restaurante (que apropriado!) Vá até os proprietários de restaurantes em sua vizinhança e pergunte quais problemas eles têm com tecnologia. Eles já têm um aplicativo móvel? Se não, porque não? Eles querem um? Eles são muito experientes em tecnologia? Eles entendem os benefícios Mostre a eles sua maquete. Descubra se isso seria uma boa solução para seus problemas
+    </p>
+
+    <p>
+        Você pode descobrir que não há interesse suficiente dos proprietários de restaurantes para tornar este um negócio viável. É uma pena, mas a boa notícia é que tudo o que custou foram algumas horas de conversa, em vez de meses de desenvolvimento. Por outro lado, você pode descobrir que os proprietários de restaurantes não estão interessados ​​em aplicativos móveis, mas em sites fáceis de criar. Isso é progresso!
+    </p>
+
+    <p>
+        Mas você ainda não terminou. Agora você deve repetir o processo para construir seu próximo MVP.
+    </p>
+    <ul>
+        <li>
+            Qual é a sua suposição mais arriscada?
+        </li>
+    </ul>
+
+    <p>
+        Neste ponto, é provável que os proprietários do restaurante estejam realmente dispostos a pagar por tal site. Qual é o menor experimento para testar essa suposição? Uma ideia para o próximo MVP pode ser criar sites estáticos manualmente para alguns dos proprietários de restaurantes que expressaram interesse e ver como eles respondem.
+        <sup id="noteid3">
+            <a href="#noteid3">3</a>
+        </sup> 
+        Eles gostam? Ficaram impressionados com o fato de o site já estar pronto? Quanto eles pagariam para ter um site assim lançado hoje? 
+    </p>
+
+    <p>
+        Talvez, quando confrontado com a perspectiva imediata de gastar dinheiro, você descubra que os proprietários do restaurante não estão realmente interessados. Bem, que bom que você aprendeu isso com apenas alguns dias de trabalho, em vez de perder meses de desenvolvimento.
+    </p>
+
+    <p>
+        Ou talvez você descubra que eles estão dispostos a pagar. Então você aceita o pagamento por alguns meses de serviço em dinheiro ou cheque (para não perder muito tempo construindo um sistema de cobrança), lança seus sites e pede para que eles enviem um e-mail se precisarem atualizar alguma informaçao no site. Sim, isso envolve muito esforço manual de sua parte. Não, isso não aumentará se o número de clientes aumentar. Mas quando você é uma pequena startup, 
+        <a href="http://paulgraham.com/ds.html">não tenha medo de fazer coisas que não escalam</a>. O dimensionamento é um bom problema, pois significa que você construiu algo que vale a pena dimensionar.
+    </p>
+
+    <p>
+        Mas enquanto isso, você precisa repetir o processo MVP mais uma vez.
+    </p>
+
+    <ul>
+        <li>
+            Qual é a sua suposição mais arriscada?
+        </li>
+    </ul>
+
+    <p>
+        Nesse ponto, pode ser que sua estratégia de marketing funcione. Você não pode ir pessoalmente a todos os restaurantes do mundo. Qual é o menor experimento que você pode fazer para testar essa suposição? Seu MVP pode ser uma página de destino que descreve o que seu produto fará, mostra os sites de restaurantes que você construiu manualmente antes e permite que os visitantes forneçam seus endereços de e-mail se estiverem interessados em ouvir mais quando você o lançar. Você pode então comprar algumas centenas de dólares em anúncios no Google, Facebook, Twitter ou LinkedIn para direcionar o tráfego para sua página de destino e ver o que acontece.
+        <sup id="noteid4">
+            <a href="#noteid4">4</a>
+        </sup>
+    </p>
+
+    <p>
+        Se os usuários em potencial nem mesmo fornecerem seus endereços de e-mail, provavelmente eles também não fornecerão dinheiro. É muito mais fácil descobrir isso ajustando algum texto e algumas imagens em uma página de destino do que reescrevendo milhares de linhas de código no produto completo! Quanto mais cedo você encontrar os erros, menos tempo será perdido construindo a coisa errada.
+    </p>
+
+    <p>
+        Este é, em poucas palavras, o processo MVP. Esteja você desenvolvendo um design de produto, um plano de marketing ou escrevendo um código, sempre pergunte:
+    </p>
+
+    <ul>
+        <li>
+            Qual é a minha suposição mais arriscada?
+        </li>
+        <li>
+            Qual é o menor experimento que posso fazer para testar essa suposição?
+        </li>
+    </ul>
+
+    <p>
+        <em>
+            Yevgeniy (Jim) Brikman é o autor de <a href="https://www.hello-startup.net/">Hello, Startup</a> e fundador da <a href="https://www.atomic-squirrel.net/">Atomic Squirrel</a>, uma empresa especializada em ajudar novas startups a decolar. Anteriormente, ele passou mais de uma década no LinkedIn, TripAdvisor, Cisco Systems e Thomson Financial. Ele é bacharel e mestre em Ciência da Computação pela Cornell University.
+        </em>
+    </p>
+    
+    <p>
+        <strong>Notas</strong>
+    </p>
+    <p>
+        <b id="noteid0">0</b>
+        Fonte original: https://www.ycombinator.com/library/4Q-a-minimum-viable-product-is-not-a-product-it-s-a-process#footnoteid2
+        <a href="#noteid0">Voltar</a>  <!-- Falta inserir a função para retornar no item -->
+    </p>
+    <p>
+        <b id="noteid1">1</b>
+        Uma gorjeta para John Wanamaker, o pai da propaganda moderna, que certa vez disse: "Sei que metade do meu dinheiro com publicidade é desperdiçado. Só não sei qual metade."
+        <a href="#noteid1">Botão Voltar</a> <!-- Falta inserir a função para retornar no item -->
+    </p>
+    <p>
+        <b id="noteid2">2</b>
+        Nas palavras de Fred Brooks, "Planeje jogar um fora; você o fará, de qualquer maneira."
+        <a href="#noteid2">Botão voltar</a> <!-- Falta inserir a função para retornar no item -->
+    </p>
+    <p>
+        <b id="noteid3">3</b>
+        "Em vez de gastar meses construindo um sistema flexível para gerar sites, você poderia fazer os primeiros protótipos em dias usando <a href="https://www.hello-startup.net/resources/design/">modelos</a>  de site estáticos gratuitos, preenchendo-os manualmente com base nas informações que você aprendeu com o proprietário do restaurante e lançando-os em um <a href="https://www.hello-startup.net/resources/hosting/">host</a> estático gratuito. Você pode até usar ferramentas como o <a href="https://ads.google.com/intl/pt_BR/home/"> Planejador de palavras-chave do Google</a> para mostrar aos proprietários com que frequência as pessoas pesquisam seus restaurantes ou pratos na área geral.
+        <a href="#noteid3">Botão voltar</a>
+    </p>
+    <p>
+        <b id="noteid4">4</b>
+        Consulte <a href="https://www.hello-startup.net/resources/distribution/">Recursos de distribuição</a> para saber como direcionar o tráfego para sua página de destino. Você pode fazer alterações rapidamente nas mensagens em sua página de aterrissagem e anúncios e usar o teste A / B (consulte   
+        <a href="https://www.hello-startup.net/resources/mvp/">Recursos de MVP</a>) para descobrir o que ressoa com seu público.
+        <a href="#noteid4">Botão voltar</a>
+    </p>
+
+</body>
+</html>
